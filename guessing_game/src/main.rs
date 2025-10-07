@@ -21,12 +21,13 @@ fn main() {
         .read_line(&mut guess)
         .expect("Failed to read line");
 
+    let guess: u32 = guess.trim().parse().expect("Please type a number");
+
     println!("You guessed: {guess}");
 
-    // https://doc.rust-lang.org/stable/book/ch02-00-guessing-game-tutorial.html#comparing-the-guess-to-the-secret-number
-//     match guess.cmp(&secret_number) {
-//         Ordering::Less => println!("Too small!"),
-//         Ordering::Equal => println!("You Win!"),
-//         Ordering::Greater => println!("Too big!"),
-//     }
+    match guess.cmp(&secret_number) {
+        Ordering::Less => println!("Too small!"),
+        Ordering::Equal => println!("You Win!"),
+        Ordering::Greater => println!("Too big!"),
+    }
 }
