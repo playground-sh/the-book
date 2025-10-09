@@ -15,3 +15,14 @@ pub fn mutability_fixed() {
     x = 200;
     println!("The value of x is: {x}");
 }
+
+pub fn constants() {
+    const EARTHS_GRAVITATIONAL_PULL: f32 = 9.81;
+    const SPEED_OF_LIGHT: i32 = 299_792_458;
+
+    println!(
+        "The earth's gravitational pull is {} m/s^2",
+        EARTHS_GRAVITATIONAL_PULL
+    );
+    println!("The speed of light is {} m/s", SPEED_OF_LIGHT);
+}
