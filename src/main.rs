@@ -7,4 +7,5 @@ fn main() {
     i_variables_and_mutability::mutability_fixed();
     i_variables_and_mutability::constants();
     i_variables_and_mutability::shadowing();
+    i_variables_and_mutability::more_shadowing();
 }

@@ -39,3 +39,11 @@ pub fn shadowing() {
 
     println!("The value of x is: {x}");
 }
+
+pub fn more_shadowing() {
+    // a more practical use of shadowing
+    let spaces = "     ";
+    let spaces = spaces.len();
+
+    println!("There are `{spaces}` spaces in the string");
+}
