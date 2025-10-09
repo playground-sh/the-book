@@ -47,3 +47,10 @@ pub fn more_shadowing() {
 
     println!("There are `{spaces}` spaces in the string");
 }
+
+// pub fn forbidden_shadow() {
+//     // compile-time error
+//     let mut spaces = "     ";
+//     // you can mutate a variable's value, NOT its type
+//     spaces = spaces.len();
+// }
