@@ -1,3 +1,8 @@
+pub mod iii_common_concepts;
+
+use iii_common_concepts::i_variables_and_mutability;
+
 fn main() {
-    println!("Hello, world!");
+    i_variables_and_mutability::mutability_broken();
+    i_variables_and_mutability::mutability_fixed();
 }
