@@ -63,3 +63,19 @@ pub fn int_literals() {
     println!("binary_literal (0b1111_0000): {binary_literal}");
     println!("byte_literal (b'A'): {byte_literal}");
 }
+
+pub fn floating_point_types() {
+    let f32_min: f32 = f32::MIN;
+    let f32_max: f32 = f32::MAX;
+    println!(
+        "f32_min: {f32_min}\n\
+         f32_max: {f32_max}"
+    );
+
+    let f64_min: f64 = f64::MIN;
+    let f64_max: f64 = f64::MAX;
+    println!(
+        "f64_min: {f64_min}\n\
+         f64_max: {f64_max}"
+    );
+}

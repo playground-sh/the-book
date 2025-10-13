@@ -14,5 +14,6 @@ fn main() {
 
     // Chapter 3.2 - Data Types
     // ii_data_types::int_types();
-    ii_data_types::int_literals();
+    // ii_data_types::int_literals();
+    ii_data_types::floating_point_types();
 }
