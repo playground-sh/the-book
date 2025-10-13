@@ -79,3 +79,18 @@ pub fn floating_point_types() {
          f64_max: {f64_max}"
     );
 }
+
+pub fn boolean_types() {
+    let truthy = true;
+    let falsy: bool = false;
+
+    println!("Truthy is: {truthy} and Falsy is: {falsy}");
+}
+
+pub fn character_type() {
+    let c = 'z';
+    let z: char = 'Z';
+    let emoji = '😺';
+
+    println!("c: {c}, z: {z}, emoji: {emoji}");
+}
