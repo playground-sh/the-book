@@ -94,3 +94,27 @@ pub fn character_type() {
 
     println!("c: {c}, z: {z}, emoji: {emoji}");
 }
+
+pub fn tuple_type() {
+    let tup = (500, 3.14, '𝜋', true, "oh crab!");
+
+    // tuple unpacking
+    let (int, float, character, boolean, string) = tup;
+    println!(
+        "int: {int}\n\
+         float: {float}\n\
+         character: {character}\n\
+         boolean: {boolean}\n\
+         string: {string}\n"
+    );
+
+    // tuple indexing
+    let num = tup.0;
+    let char = tup.2;
+    let string_literal = tup.4;
+    println!(
+        "num: {num}\n\
+         char: {char}\n\
+         string_literal: {string_literal}"
+    );
+}
