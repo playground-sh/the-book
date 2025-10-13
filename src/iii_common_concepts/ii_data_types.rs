@@ -118,3 +118,40 @@ pub fn tuple_type() {
          string_literal: {string_literal}"
     );
 }
+
+pub fn array_type() {
+    let nums = [1, 2, 3, 4, 5];
+    println!("nums: {nums:?}");
+
+    let months = [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December",
+    ];
+    println!("months: {months:?}");
+
+    // array type annotation
+    let b: [i32; 5] = [6, 7, 8, 9, 10];
+    println!("b: {b:?}");
+
+    // array initialization (with same initial value)
+    // syntax: let x = [value; count];
+    let x = [3; 5]; // an array containing all 3s, 5 times
+    println!("x: {x:?}, x.len(): {}", x.len());
+
+    // Accessing Array Elements
+    let a = [1, 2, 3, 4, 5];
+
+    let first = a[0];
+    let second = a[1];
+    println!("first: {first}, second: {second}");
+}

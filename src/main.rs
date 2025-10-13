@@ -18,5 +18,6 @@ fn main() {
     // ii_data_types::floating_point_types();
     // ii_data_types::boolean_types();
     // ii_data_types::character_type();
-    ii_data_types::tuple_type();
+    // ii_data_types::tuple_type();
+    ii_data_types::array_type();
 }
