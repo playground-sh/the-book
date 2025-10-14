@@ -31,7 +31,13 @@ fn main() {
     // println!("{}", iii_functions::plus_one(5));
 
     // Chapter 3.4 - Control Flow
-    v_control_flow::if_expressions::basic();
-    v_control_flow::if_expressions::else_if();
-    v_control_flow::if_expressions::using_if_in_a_let_statement();
+    // v_control_flow::if_expressions::basic();
+    // v_control_flow::if_expressions::else_if();
+    // v_control_flow::if_expressions::using_if_in_a_let_statement();
+    // v_control_flow::repetition_with_loops::returning_values_from_loops();
+    // v_control_flow::repetition_with_loops::loop_labels();
+    // v_control_flow::repetition_with_loops::conditional_loops_with_while();
+    // v_control_flow::repetition_with_loops::looping_collections_with_for();
+    // v_control_flow::repetition_with_loops::looping_collection_concisely();
+    v_control_flow::repetition_with_loops::countdown_with_for();
 }
