@@ -2,7 +2,8 @@
 pub mod iii_common_concepts;
 
 // use iii_common_concepts::i_variables_and_mutability;
-use iii_common_concepts::ii_data_types;
+// use iii_common_concepts::ii_data_types;
+use iii_common_concepts::iii_functions;
 
 fn main() {
     // Chapter 3.1 - Variables and Mutability
@@ -19,5 +20,12 @@ fn main() {
     // ii_data_types::boolean_types();
     // ii_data_types::character_type();
     // ii_data_types::tuple_type();
-    ii_data_types::array_type();
+    // ii_data_types::array_type();
+
+    // Chapter 3.3 - Functions
+    // iii_functions::with_parameter(5);   // here `5` is the function argument
+    // iii_functions::multiple_parameters(5, 'h');
+    // iii_functions::statements_and_expression();
+    println!("{}", iii_functions::five());
+    println!("{}", iii_functions::plus_one(5));
 }
